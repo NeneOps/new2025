@@ -9,3 +9,7 @@ output "privip" {
 output "myusername" {
   value = aws_lightsail_instance.server1.username
 }
+
+output "bundle" {
+  value = aws_lightsail_instance.server1.bundle_id
+}
